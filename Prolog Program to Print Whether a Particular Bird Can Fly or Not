@@ -1,0 +1,21 @@
+% Facts defining birds and whether they can fly or not
+bird(sparrow).
+bird(penguin).
+bird(eagle).
+bird(ostrich).
+
+% Rules for flight
+can_fly(sparrow).
+can_fly(eagle).
+
+cannot_fly(penguin).
+cannot_fly(ostrich).
+
+% General query to check if a bird can fly
+fly_status(Bird) :-
+    can_fly(Bird),
+    write(Bird), write(' can fly.'), nl.
+
+fly_status(Bird) :-
+    cannot_fly(Bird),
+    write(Bird), write(' cannot fly.'), nl.
