@@ -1,0 +1,11 @@
+Input: Information about students, teachers, and subject codes.
+Store Facts:
+Store the relationship between students, teachers, and subject codes in the form of class(Student, Teacher, SubCode).
+Query:
+When a query is made for a student's class details, retrieve the relevant teacher and subject code for that student.
+Output: The student, teacher, and subject code details.
+Steps:
+
+For each student-teacher-subject combination, store them as facts.
+When a query is made for a student's class information, find the fact that matches the student.
+Return the matched fact (student, teacher, and subject code).
