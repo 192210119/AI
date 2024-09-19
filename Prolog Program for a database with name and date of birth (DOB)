@@ -1,0 +1,8 @@
+% Sample database
+person(john, '1990-05-14').
+person(jane, '1992-07-22').
+person(bob, '1988-10-30').
+
+% Query to retrieve name and DOB
+find_person(Name, DOB) :-
+    person(Name, DOB).
