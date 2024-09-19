@@ -1,0 +1,8 @@
+% Sample database with student, teacher, and subject code
+student_teacher_subject(john, mr_smith, 'CS101').
+student_teacher_subject(jane, ms_jones, 'CS102').
+student_teacher_subject(bob, mr_smith, 'CS101').
+
+% Query to retrieve student, teacher, and subject code
+find_student_teacher_subject(Student, Teacher, SubjectCode) :-
+    student_teacher_subject(Student, Teacher, SubjectCode).
