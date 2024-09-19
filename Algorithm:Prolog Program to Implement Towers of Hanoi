@@ -1,0 +1,7 @@
+Input: Number of disks N, Source, Auxiliary, and Destination pegs.
+Base Case: If N = 1, move the disk directly from Source to Destination.
+Recursive Case:
+Move N-1 disks from Source to Auxiliary.
+Move the Nth disk from Source to Destination.
+Move N-1 disks from Auxiliary to Destination.
+Output: Step-by-step instructions for solving Towers of Hanoi.
