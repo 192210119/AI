@@ -1,0 +1,11 @@
+Input: Name and date of birth data (stored in a database).
+Store Facts:
+Store name and date of birth as pairs in the form of person(Name, DOB).
+Query:
+When a query for a person's name or DOB is made, retrieve the stored fact that matches the input.
+Output: The name and corresponding DOB.
+Steps:
+
+For each person, store their name and date of birth as facts.
+When a query is made with a name or DOB, find the matching fact in the database.
+Return the matched fact (name and DOB).
