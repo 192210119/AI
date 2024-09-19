@@ -1,0 +1,11 @@
+% Facts for planets: name, distance from the sun (in million km), diameter (in km), and gravity (m/s^2)
+planet(mercury, 57.9, 4879, 3.7).
+planet(venus, 108.2, 12104, 8.87).
+planet(earth, 149.6, 12742, 9.81).
+planet(mars, 227.9, 6779, 3.71).
+planet(jupiter, 778.5, 139820, 24.79).
+planet(saturn, 1433.5, 116460, 10.44).
+planet(uranus, 2872.5, 50724, 8.69).
+planet(neptune, 4495.1, 49244, 11.15).
+
+% Query example: planet(Name, Distance, Diameter, Gravity).
