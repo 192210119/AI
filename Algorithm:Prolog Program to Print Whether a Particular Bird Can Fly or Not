@@ -1,0 +1,6 @@
+input: Bird name.
+Facts: Store facts about birds and their ability to fly or not.
+Query:
+If the bird can fly, print that it can.
+If the bird cannot fly, print that it cannot.
+Output: A message stating whether the bird can fly.
