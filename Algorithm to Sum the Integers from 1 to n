@@ -1,0 +1,7 @@
+Input: An integer n.
+Base Case:
+If n = 0, return 0 (the sum from 1 to 0 is 0).
+Recursive Case:
+For n > 0, calculate the sum of integers from 1 to n-1.
+Add n to the result of the sum from 1 to n-1.
+Output: The sum of integers from 1 to n.
