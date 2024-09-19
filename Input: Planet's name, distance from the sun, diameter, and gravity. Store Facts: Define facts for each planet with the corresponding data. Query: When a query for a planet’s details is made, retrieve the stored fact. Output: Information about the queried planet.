@@ -1,0 +1,4 @@
+Input: Planet's name, distance from the sun, diameter, and gravity.
+Store Facts: Define facts for each planet with the corresponding data.
+Query: When a query for a planet’s details is made, retrieve the stored fact.
+Output: Information about the queried planet.
